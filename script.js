@@ -1,8 +1,8 @@
 const canvas = document.getElementById('canvas');
 const ctx = canvas.getContext('2d');
 
-canvas.width = window.innerWidth;
-canvas.height = window.innerHeight;
+canvas.width = document.body.clientWidth;
+canvas.height = document.body.clientHeight;
 
 let selectedColor = 'red';
 let red = 255;
